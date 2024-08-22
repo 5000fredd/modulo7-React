@@ -37,80 +37,29 @@
   }
 }
 
-/* ESTILO PARA TAREA 1 */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 20px;
+nav {
+  background-color: #333;
+  padding: 1rem;
 }
 
-/* Contenedor */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #ffffff;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-}
-
-/* Barra de búsqueda */
-form {
-  margin-bottom: 20px;
-}
-
-input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-label {
+ul {
+  list-style-type: none;
   display: flex;
-  align-items: center;
-  font-size: 14px;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
 }
 
-input[type="checkbox"] {
-  margin-right: 8px;
+li {
+  margin-right: 2rem;
 }
 
-/* Tabla */
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-thead th {
-  background-color: #4CAF50;
+a {
   color: white;
-  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-tbody td {
-  padding: 10px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-/* Categoría */
-th[colspan="2"] {
-  background-color: #f2f2f2;
-  padding: 10px;
-  text-align: left;
-  font-size: 16px;
-  color: #555;
-}
-
-/* Productos fuera de stock */
-span {
-  color: red;
-}
-
-/* Filas alternas */
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+a:hover {
+  color: #ffcc00;
 }
